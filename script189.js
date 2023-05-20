@@ -1,4 +1,4 @@
-// https://code.mu/ru/javascript/book/prime/functions/function-returning-function/
+// javascript/book/prime/functions/function-returning-function/
 
 
 //task1
