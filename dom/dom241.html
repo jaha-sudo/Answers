@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom241</title>
+  </head>
+  <body>
+    <!-- task1 -->
+    <p id="elem1">element 1</p>
+    <p id="elem2">element 2</p>
+    <p id="elem3">element 3</p>
+
+    <!-- task2 -->
+    <div id="block">
+      <p>Hello</p>
+      <p>world</p>
+    </div>
+
+    <!-- task3 -->
+    <div class="block">
+      <p>Hi</p>
+      <p>girls</p>
+    </div>
+
+    <!-- task4 -->
+    <p class="www">www</p>
+    <p class="www">another www</p>
+
+    <script>
+      // task1
+      let parag1 = document.querySelector("#elem1");
+      console.log(parag1.textContent);
+      let parag2 = document.querySelector("#elem2");
+      console.log(parag2.textContent);
+      let parag3 = document.querySelector("#elem3");
+      console.log(parag3.textContent);
+
+      //   task2
+      let firstElem = document.querySelector("#block p");
+      console.log(firstElem.textContent);
+
+      //   task3
+      let anotherElem = document.querySelector(".block p");
+      console.log(anotherElem.textContent);
+
+      let wwwElem = document.querySelector('.www')
+      console.log(wwwElem.textContent);
+    </script>
+  </body>
+</html>

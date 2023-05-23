@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom246</title>
+  </head>
+  <body>
+    <!-- task1 -->
+    <input type="button" id="input1" value="click button1" />
+    <!-- task2 -->
+    <input type="button" id="input2" value="click button2" />
+    <!-- task3 -->
+    <input type="button" id="input3" value="click button3" />
+    <!-- task4 -->
+    <input type="button" id="input4" value="click button4" />
+
+    <script>
+      // task1
+      let input1 = document.querySelector("#input1");
+      input1.addEventListener("dblclick", function () {
+        console.log("dblclick message");
+      });
+      //   task2
+      let input2 = document.querySelector("#input2");
+      input2.addEventListener("mouseover", function () {
+        console.log("mouseover message");
+      });
+      //   task3
+      let input3 = document.querySelector("#input3");
+      input3.addEventListener("mouseout", function () {
+        console.log("mouseout message");
+      });
+      //   task4
+      let input4 = document.querySelector("#input4");
+      input4.addEventListener("mouseover", function () {
+        console.log("some mouseover message");
+      });
+      input4.addEventListener("mouseout", function () {
+        console.log("another mouseout message");
+      });
+    </script>
+  </body>
+</html>
